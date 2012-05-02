@@ -24,3 +24,7 @@ REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `
 -- Lurking Tempest Aura
 REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
 ('45704', '0', '0', '0', '0', '0', '85467');
+
+-- Skyfall Visual Aura
+REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
+('45981', '0', '0', '0', '0', '0', '85719');
