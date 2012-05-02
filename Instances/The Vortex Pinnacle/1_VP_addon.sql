@@ -28,3 +28,7 @@ REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `
 -- Skyfall Visual Aura
 REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
 ('45981', '0', '0', '0', '0', '0', '85719');
+
+-- Grounding Field Visual Aura
+REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
+('47085', '0', '0', '0', '0', '0', '87517');
