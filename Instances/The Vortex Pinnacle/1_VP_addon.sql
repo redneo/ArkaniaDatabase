@@ -18,5 +18,9 @@ REPLACE INTO `creature_addon` (`guid`, `path_id`, `mount`, `bytes1`, `bytes2`, `
 ('15812192', '15812192', '0', '0', '0', '0', '85740 85734');
 
 -- Howling Gale Visual Aura
-REPLACE INTO `creature_template_addon` (`guid`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
+REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
 ('45572', '0', '0', '0', '0', '0', '85084');
+
+-- Lurking Tempest Aura
+REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES 
+('45704', '0', '0', '0', '0', '0', '85467');
