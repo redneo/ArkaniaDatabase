@@ -6,3 +6,6 @@ UPDATE creature_template SET unit_flags = 131076, minlevel = 84, maxlevel = 84, 
 
 -- Grounding Field
 UPDATE creature_template SET InhabitType = 7 WHERE entry = 47085;
+
+-- Altarius Fly
+UPDATE `creature_template` SET `InhabitType`='5' WHERE (`entry`='43873');
