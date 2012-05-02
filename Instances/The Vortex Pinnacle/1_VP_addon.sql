@@ -12,4 +12,4 @@ REPLACE INTO `creature_model_info` (`modelid`, `bounding_radius`, `combat_reach`
 
 -- Zephyr Fix
 REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES
-(45991, 0, 0, 0, 0, 0, '85740');
+(45991, 0, 0, 0, 0, 0, '85740 85734');
