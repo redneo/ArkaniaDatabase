@@ -9,6 +9,3 @@ UPDATE creature_template SET InhabitType = 7 WHERE entry = 47085;
 
 -- Altarius Fly
 UPDATE `creature_template` SET `InhabitType`='5' WHERE (`entry`='43873');
-
--- Young Storm Dragon Fly
-UPDATE `creature_template` SET `InhabitType`='5' WHERE (`entry`='45919');
