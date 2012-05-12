@@ -31,7 +31,7 @@ REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `
 
 -- Goblin SAY_EXEC_START_4
 DELETE FROM script_texts WHERE entry = '-1609079';
-INSERT INTO `script_texts` VALUES ('29032', '-1609079', 'C... can't we work this out somehow? ', null, null, null, null, null, null, null, null, '0', '0', '0', '1', 'special_surprise SAY_EXEC_START_4');
+INSERT INTO `script_texts` VALUES ('29032', '-1609079', 'C... can\'t we work this out somehow? ', null, null, null, null, null, null, null, null, '0', '0', '0', '1', 'special_surprise SAY_EXEC_START_4');
 
 -- Goblin SAY_EXEC_PROG_8
 DELETE FROM script_texts WHERE entry = '-1609080';
