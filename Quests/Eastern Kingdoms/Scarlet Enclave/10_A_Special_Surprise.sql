@@ -5,7 +5,7 @@
 
 ## WORGEN ##
 -- Lord Harford
-UPDATE creature SET position_x = 1331.601, position_y = -5760.117, position_z = 137.65, orientation = 3.157908 WHERE id 49355;
+UPDATE creature SET position_x = 1331.601, position_y = -5760.117, position_z = 137.65, orientation = 3.157908 WHERE id = 49355;
 
 -- Makes Lord Harford Kneel
 REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES ('49355', '0', '0', '8', '4097', '0', NULL);
@@ -24,7 +24,7 @@ INSERT INTO `script_texts` VALUES ('29032', '-1609087', 'There... There\'s no mo
 
 ## GOBLIN ##
 -- Gally Lumpstain
-UPDATE creature SET position_x = 1321.497, position_y = -5759.172, position_z = 137.63, orientation = 0.056377 WHERE id 49356;
+UPDATE creature SET position_x = 1321.497, position_y = -5759.172, position_z = 137.63, orientation = 0.056377 WHERE id = 49356;
 
 -- Makes Gally Lumpstain Kneel
 REPLACE INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `auras`) VALUES ('49356', '0', '0', '8', '4097', '0', NULL);
